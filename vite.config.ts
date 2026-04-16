@@ -20,16 +20,10 @@ export default defineConfig({
       entry: path.resolve(dirname, "src/index.ts"),
       name: "DesignSystem",
       fileName: "design-system",
-      formats: ["es", "umd"],
+      formats: ["es"],
     },
     rollupOptions: {
       external: ["react", "react-dom"],
-      output: {
-        globals: {
-          react: "React",
-          "react-dom": "ReactDOM",
-        },
-      },
     },
   },
 
