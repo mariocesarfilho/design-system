@@ -1,6 +1,6 @@
 {
   "name": "@smallduster/design-system",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "main": "./dist/design-system.umd.cjs",
   "module": "./dist/design-system.js",
